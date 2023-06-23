@@ -8055,11 +8055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sheik\\source\\repos\\DogGo\\DogGo\\DogGo.csproj",
+      "projectUniqueName": "C:\\Users\\sheik\\workspace\\csharp\\DogGo\\DogGo\\DogGo.csproj",
       "projectName": "DogGo",
-      "projectPath": "C:\\Users\\sheik\\source\\repos\\DogGo\\DogGo\\DogGo.csproj",
+      "projectPath": "C:\\Users\\sheik\\workspace\\csharp\\DogGo\\DogGo\\DogGo.csproj",
       "packagesPath": "C:\\Users\\sheik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sheik\\source\\repos\\DogGo\\DogGo\\obj\\",
+      "outputPath": "C:\\Users\\sheik\\workspace\\csharp\\DogGo\\DogGo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sheik\\AppData\\Roaming\\NuGet\\NuGet.Config",
