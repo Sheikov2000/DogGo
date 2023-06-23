@@ -23,6 +23,16 @@ namespace DogGo.Repositories
             }
         }
 
+        public void AddOwner(Owner owner)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void DeleteOwner(int ownerId)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public List<Owner> GetAllOwners()
         {
             using (SqlConnection conn = Connection)
@@ -44,6 +54,9 @@ namespace DogGo.Repositories
                             {
                                 Id = reader.GetInt32(reader.GetOrdinal("Id")),
                                 Name = reader.GetString(reader.GetOrdinal("Name")),
+                                Email = reader.GetString(reader.GetOrdinal("Email")),
+                                Address = reader.GetString(reader.GetOrdinal("Address")),
+                                Phone = reader.GetString(reader.GetOrdinal("Phone")),
                                 NeighborhoodId = reader.GetInt32(reader.GetOrdinal("NeighborhoodId"))
                             };
                              
@@ -80,6 +93,9 @@ namespace DogGo.Repositories
                             {
                                 Id = reader.GetInt32(reader.GetOrdinal("Id")),
                                 Name = reader.GetString(reader.GetOrdinal("Name")),
+                                Email = reader.GetString(reader.GetOrdinal("Email")),
+                                Address = reader.GetString(reader.GetOrdinal("Address")),
+                                Phone = reader.GetString(reader.GetOrdinal("Phone")),
                                 NeighborhoodId = reader.GetInt32(reader.GetOrdinal("NeighborhoodId"))
                             };
 
@@ -92,6 +108,11 @@ namespace DogGo.Repositories
                     }
                 }
             }
+        }
+
+        public void UpdateOwner(Owner owner)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
